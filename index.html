@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silvia Premium Apps ✨ - Netflix 15K & Streaming Murah</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Poppins & Fredoka for cute feel -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        pinkish: {
+                            50: '#fff0f3',
+                            100: '#ffe3e8',
+                            200: '#ffccd5',
+                            300: '#ffb3c1',
+                            400: '#ff758f',
+                            500: '#ff4d6d',
+                            600: '#c9184a',
+                            750: '#800f2f',
+                            900: '#590d22',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                        cute: ['Fredoka', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        .animate-float {
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes pulse-soft {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+        }
+        .animate-pulse-soft {
+            animation: pulse-soft 2s infinite;
+        }
+        .bg-sparkle {
+            background-image: radial-gradient(#ffb3c1 1px, transparent 1px), radial-gradient(#ff758f 1px, #fff0f3 1px);
+            background-size: 40px 40px;
+            background-position: 0 0, 20px 20px;
+        }
+    </style>
+</head>
+<body class="bg-pinkish-50 text-gray-800 font-sans selection:bg-pinkish-300 selection:text-pinkish-900">
+
+    <!-- Navigation Bar -->
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-pinkish-200 shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-12 h-12 rounded-full bg-gradient-to-tr from-pinkish-500 to-pinkish-300 flex items-center justify-center text-white text-xl shadow-md animate-pulse-soft">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <div>
+                    <span class="font-cute text-2xl font-bold bg-gradient-to-r from-pinkish-600 to-pinkish-400 bg-clip-text text-transparent">Silvia Store ✨</span>
+                    <p class="text-xs text-pinkish-500 font-medium">Trusted Premium Apps 🎀</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8 font-medium text-gray-600">
+                <a href="#home" class="hover:text-pinkish-500 transition">Beranda</a>
+                <a href="#promo" class="hover:text-pinkish-500 transition">Promo Netflix</a>
+                <a href="#apps" class="hover:text-pinkish-500 transition">List Aplikasi</a>
+                <a href="#testi" class="hover:text-pinkish-500 transition">Testimoni</a>
+                <a href="#faq" class="hover:text-pinkish-500 transition">FAQ</a>
+            </nav>
+            <div>
+                <a href="https://wa.me/6285772252931?text=hallo%20kk%20silvia%20mau%20tanya%20dong" target="_blank" class="bg-gradient-to-r from-pinkish-500 to-pinkish-600 text-white font-medium px-5 py-2.5 rounded-full shadow-lg hover:shadow-pinkish-300 hover:scale-105 transition transform flex items-center space-x-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span>Chat Kak Silvia</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-sparkle py-16 md:py-24 overflow-hidden">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="text-center md:text-left space-y-6">
+                    <span class="inline-flex items-center space-x-2 bg-pinkish-100 text-pinkish-600 px-4 py-1.5 rounded-full text-sm font-semibold shadow-inner">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <span>Spesial Diskon Hari Ini! 💖</span>
+                    </span>
+                    <h1 class="font-cute text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+                        Netflix & Apps Premium <span class="bg-gradient-to-r from-pinkish-600 to-pinkish-400 bg-clip-text text-transparent">Super Murah & Legal!</span>
+                    </h1>
+                    <p class="text-gray-600 text-lg">
+                        Mau nonton drakor, film boxoffice, atau pakai aplikasi premium tanpa bikin dompet bolong? Gabung sama ribuan customer Kak Silvia sekarang yuk! 🌸✨
+                    </p>
+                    <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-4 pt-2">
+                        <a href="https://wa.me/6285772252931?text=hallo%20kk%20silvia%20mau%20tanya%20dong" target="_blank" class="bg-gradient-to-r from-pinkish-500 to-pinkish-600 text-white font-semibold px-8 py-4 rounded-2xl shadow-xl hover:shadow-pinkish-300/50 hover:scale-105 transition transform flex items-center justify-center space-x-3 text-lg">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i>
+                            <span>Pesan Sekarang Disini</span>
+                        </a>
+                        <a href="#apps" class="bg-white text-pinkish-600 border-2 border-pinkish-200 font-semibold px-6 py-4 rounded-2xl shadow-sm hover:bg-pinkish-50 transition flex items-center justify-center space-x-2 text-lg">
+                            <span>Lihat List Lainnya</span>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+                    </div>
+                    <div class="flex items-center justify-center md:justify-start space-x-6 pt-4 text-sm text-gray-500 font-medium">
+                        <div class="flex items-center space-x-2"><i class="fa-solid fa-circle-check text-pinkish-500"></i><span>100% Amanah</span></div>
+                        <div class="flex items-center space-x-2"><i class="fa-solid fa-circle-check text-pinkish-500"></i><span>Garansi Full</span></div>
+                        <div class="flex items-center space-x-2"><i class="fa-solid fa-circle-check text-pinkish-500"></i><span>Proses Cepat</span></div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="relative w-72 sm:w-80 h-96 sm:h-[420px] bg-gradient-to-b from-pinkish-300 to-pinkish-500 rounded-3xl p-4 shadow-2xl animate-float">
+                        <div class="w-full h-full bg-white rounded-2xl p-6 flex flex-col justify-between relative overflow-hidden shadow-inner">
+                            <div class="absolute -top-10 -right-10 w-32 h-32 bg-pinkish-100 rounded-full blur-xl"></div>
+                            <div class="text-center space-y-2 relative z-10">
+                                <span class="bg-pinkish-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">🔥 Hot Promo</span>
+                                <h3 class="font-cute text-2xl font-bold text-gray-800">Netflix Sharing Plan</h3>
+                                <p class="text-gray-500 text-xs">Akses HD & Ultra HD anti-lelet</p>
+                            </div>
+                            <div class="my-4 bg-pinkish-50 rounded-2xl p-4 text-center border border-pinkish-200 relative z-10">
+                                <span class="text-xs text-gray-400 line-through">Rp 65.000 /bulan</span>
+                                <div class="font-cute text-4xl font-bold text-pinkish-600 my-1">Rp 15K</div>
+                                <span class="text-xs font-semibold text-pinkish-500 bg-pinkish-100 px-2.5 py-0.5 rounded-full">Hemat Banget! ✨</span>
+                            </div>
+                            <div class="space-y-2 text-xs text-gray-600 relative z-10">
+                                <div class="flex items-center space-x-2"><i class="fa-solid fa-check text-pinkish-500"></i><span>Support TV, HP, Laptop</span></div>
+                                <div class="flex items-center space-x-2"><i class="fa-solid fa-check text-pinkish-500"></i><span>No Iklan, Nonton Puas</span></div>
+                            </div>
+                            <a href="https://wa.me/6285772252931?text=hallo%20kk%20silvia%20mau%20tanya%20dong" target="_blank" class="w-full bg-gradient-to-r from-pinkish-500 to-pinkish-600 text-white font-semibold py-3 rounded-xl text-center shadow-md hover:opacity-95 transition relative z-10 block">
+                                Ambil Promo Ini 💖
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Netflix Promo Feature -->
+    <section id="promo" class="py-16 bg-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-r from-pinkish-500 via-pinkish-600 to-pinkish-750 rounded-3xl p-8 sm:p-12 text-white shadow-2xl relative overflow-hidden">
+                <div class="absolute right-0 bottom-0 opacity-10 translate-x-10 translate-y-10">
+                    <i class="fa-solid fa-film text-[250px]"></i>
+                </div>
+                <div class="relative z-10 max-w-xl space-y-4">
+                    <span class="bg-white/20 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">✨ Spesial Netflix Murah</span>
+                    <h2 class="font-cute text-3xl sm:text-4xl font-bold">Netflix 15K / 1 Bulan Full!</h2>
+                    <p class="text-pinkish-100 text-base leading-relaxed">
+                        Nikmati ribuan film series, drama Korea, anime terbaru dengan kualitas jernih tanpa gangguan. Garansi aktif full sebulan penuh!
+                    </p>
+                    <div class="pt-2">
+                        <a href="https://wa.me/6285772252931?text=hallo%20kk%20silvia%20mau%20tanya%20dong" target="_blank" class="inline-flex items-center space-x-3 bg-white text-pinkish-600 font-bold px-8 py-3.5 rounded-2xl shadow-lg hover:bg-pinkish-50 transition transform hover:scale-105">
+                            <i class="fa-brands fa-whatsapp text-2xl text-green-500"></i>
+                            <span>Beli Netflix 15K Sekarang</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Apps Grid -->
+    <section id="apps" class="py-16 bg-pinkish-50/50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center space-y-3 mb-12">
+                <span class="text-pinkish-500 font-semibold text-sm uppercase tracking-wider bg-pinkish-100 px-3 py-1 rounded-full">Katalog Lengkap 📱</span>
+                <h2 class="font-cute text-3xl sm:text-4xl font-bold text-gray-900">Aplikasi Premium Lainnya</h2>
+                <p class="text-gray-600 max-w-xl mx-auto">Pilih aplikasi favoritmu untuk menemani hari-hari produktif dan hiburanmu dengan harga pelajar!</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- App Card 1 -->
+                <div class="bg-white rounded-3xl p-6 shadow-md hover:shadow-xl border border-pinkish-100 transition-all transform hover:-translate-y-1 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="w-14 h-14 rounded-2xl bg-green-100 flex items-center justify-center text-green-600 text-2xl font-bold shadow-inner">
+                                <i class="fa-brands fa-spotify"></i>
+                            </div>
+                            <span class="bg-pinkish-100 text-pinkish-600 text-xs font-bold px-2.5 py-1 rounded-full">Terlaris</span>
+                        </div>
+                        <h3 class="font-cute text-xl font-bold text-gray-800">Spotify Premium</h3>
+                        <p class="text-gray-500 text-xs mt-1">Bebas iklan, download lagu sepuasnya, skip tanpa batas.</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
+                        <div>
+                            <span class="text-xs text-gray-400 block">Mulai dari</span>
+                            <span class="font-cute text-lg font-bold text-pinkish-600">Rp 10.000 <span class="text-xs font-normal text-gray-500">/bln</span></span>
+                        </div>
+                        <a href="https://wa.me/6285772252931?text=hallo%20kk%20silvia%20mau%20tanya%20dong" target="_blank" class="bg-pinkish-500 hover:bg-pinkish-600 text-white px-4 py-2 rounded-xl text-sm font-semibold shadow transition flex items-center space-x-1">
+                            <span>Order</span>
+                            <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- App Card 2 -->
+                <div class="bg-white rounded-3xl p-6 shadow-md hover:shadow-xl border border-pinkish-100 transition-all transform hover:-translate-y-1 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="w-14 h-14 rounded-2xl bg-blue-100 flex items-center justify-center text-blue-600 text-2xl font-bold shadow-inner">
+                                <i class="fa-solid fa-video"></i>
+                            </div>
+                            <span class="bg-pinkish-100 text-pinkish-600 text-xs font-bold px-2.5 py-1 rounded-full">Populer</span>
+                        </div>
+                        <h3 class="font-cute text-xl font-bold text-gray-800">Disney+ Hotstar</h3>
+                        <p class="text-gray-500 text-xs mt-1">Nonton Marvel, Star Wars, dan film Disney kesukaanmu.</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
+                        <div>
+                            <span class="text-xs text-gray-400 block">Mulai dari</span>
+                            <span class="font-cute text-lg font-bold text-pinkish-600">Rp 15.000 <span class="text-xs font-normal text-gray-500">/bln</span></span>
+                        </div>
+                        <a href="https://wa.me/6285772252931?text=hallo%20kk%20silvia%20mau%20tanya%20dong" target="_blank" class="bg-pinkish-500 hover:bg-pinkish-600 text-white px-4 py-2 rounded-xl text-sm font-semibold shadow transition flex items-center space-x-1">
+                            <span>Order</span>
+                            <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- App Card 3 -->
+                <div class="bg-white rounded-3xl p-6 shadow-md hover:shadow-xl border border-pinkish-100 transition-all transform hover:-translate-y-1 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="w-14 h-14 rounded-2xl bg-purple-100 flex items-center justify-center text-purple-600 text-2xl font-bold shadow-inner">
+                                <i class="fa-solid fa-palette"></i>
+                            </div>
+                            <span class="bg-pinkish-100 text-pinkish-600 text-xs font-bold px-2.5 py-1 rounded-full">Desain</span>
+                        </div>
+                        <h3 class="font-cute text-xl font-bold text-gray-800">Canva Pro</h3>
+                        <p class="text-gray-500 text-xs mt-1">Akses semua template pro, element premium, & background remover.</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
+                        <div>
+                            <span class="text-xs text-gray-400 block">Mulai dari</span>
+                            <span class="font-cute text-lg font-bold text-pinkish-600">Rp 10.000 <span class="text-xs font-normal text-gray-500">/bln</span></span>
+                        </div>
+                        <a href="https://wa.me/6285772252931?text=hallo%20kk%20silvia%20mau%20tanya%20dong" target="_blank" class="bg-pinkish-500 hover:bg-pinkish-600 text-white px-4 py-2 rounded-xl text-sm font-semibold shadow transition flex items-center space-x-1">
+                            <span>Order</span>
+                            <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- App Card 4 -->
+                <div class="bg-white rounded-3xl p-6 shadow-md hover:shadow-xl border border-pinkish-100 transition-all transform hover:-translate-y-1 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="w-14 h-14 rounded-2xl bg-indigo-100 flex items-center justify-center text-indigo-600 text-2xl font-bold shadow-inner">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <span class="bg-pinkish-100 text-pinkish-600 text-xs font-bold px-2.5 py-1 rounded-full">Belajar</span>
+                        </div>
+                        <h3 class="font-cute text-xl font-bold text-gray-800">YouTube Premium</h3>
+                        <p class="text-gray-500 text-xs mt-1">Nonton tanpa iklan, bisa background play & download video.</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
+                        <div>
+                            <span class="text-xs text-gray-400 block">Mulai dari</span>
+                            <span class="font-cute text-lg font-bold text-pinkish-600">Rp 10.000 <span class="text-xs font-normal text-gray-500">/bln</span></span>
+                        </div>
+                        <a href="https://wa.me/6285772252931?text=hallo%20kk%20silvia%20mau%20tanya%20dong" target="_blank" class="bg-pinkish-500 hover:bg-pinkish-600 text-white px-4 py-2 rounded-xl text-sm font-semibold shadow transition flex items-center space-x-1">
+                            <span>Order</span>
+                            <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- App Card 5 -->
+                <div class="bg-white rounded-3xl p-6 shadow-md hover:shadow-xl border border-pinkish-100 transition-all transform hover:-translate-y-1 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="w-14 h-14 rounded-2xl bg-amber-100 flex items-center justify-center text-amber-600 text-2xl font-bold shadow-inner">
+                                <i class="fa-solid fa-wand-magic"></i>
+                            </div>
+                            <span class="bg-pinkish-100 text-pinkish-600 text-xs font-bold px-2.5 py-1 rounded-full">Editing</span>
+                        </div>
+                        <h3 class="font-cute text-xl font-bold text-gray-800">Lightroom & VSCO Full</h3>
+                        <p class="text-gray-500 text-xs mt-1">Preset lengkap bikin feed IG kamu estetik seketika.</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
+                        <div>
+                            <span class="text-xs text-gray-400 block">Mulai dari</span>
+                            <span class="font-cute text-lg font-bold text-pinkish-600">Rp 10.000 <span class="text-xs font-normal text-gray-500">/bln</span></span>
+                        </div>
+                        <a href="https://wa.me/6285772252931?text=hallo%20kk%20silvia%20mau%20tanya%20dong" target="_blank" class="bg-pinkish-500 hover:bg-pinkish-600 text-white px-4 py-2 rounded-xl text-sm font-semibold shadow transition flex items-center space-x-1">
+                            <span>Order</span>
+                            <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- App Card 6 -->
+                <div class="bg-white rounded-3xl p-6 shadow-md hover:shadow-xl border border-pinkish-100 transition-all transform hover:-translate-y-1 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="w-14 h-14 rounded-2xl bg-rose-100 flex items-center justify-center text-pinkish-600 text-2xl font-bold shadow-inner">
+                                <i class="fa-solid fa-box-open"></i>
+                            </div>
+                            <span class="bg-pinkish-100 text-pinkish-600 text-xs font-bold px-2.5 py-1 rounded-full">Request Lain</span>
+                        </div>
+                        <h3 class="font-cute text-xl font-bold text-gray-800">Apps Lainnya</h3>
+                        <p class="text-gray-500 text-xs mt-1">Viu, Wetv, IQIYI, Vidio, Netflix Private, Apple Music, dll.</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
+                        <div>
+                            <span class="text-xs text-gray-400 block">Tanya Admin</span>
+                            <span class="font-cute text-lg font-bold text-pinkish-600">Super Murah</span>
+                        </div>
+                        <a href="https://wa.me/6285772252931?text=hallo%20kk%20silvia%20mau%20tanya%20dong" target="_blank" class="bg-pinkish-500 hover:bg-pinkish-600 text-white px-4 py-2 rounded-xl text-sm font-semibold shadow transition flex items-center space-x-1">
+                            <span>Tanya</span>
+                            <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testi" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center space-y-3 mb-12">
+                <span class="text-pinkish-500 font-semibold text-sm uppercase tracking-wider bg-pinkish-100 px-3 py-1 rounded-full">Testimoni 💌</span>
+                <h2 class="font-cute text-3xl sm:text-4xl font-bold text-gray-900">Apa Kata Customer Kak Silvia?</h2>
+                <p class="text-gray-600">Ribuan orang sudah langganan dan puas dengan pelayanan cepat Kak Silvia!</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-pinkish-50/60 p-6 rounded-3xl border border-pinkish-100 shadow-sm relative">
+                    <div class="text-pinkish-400 text-2xl mb-3"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="text-gray-600 text-sm italic mb-6">"Gercep banget Kak Silvia! Baru transfer beberapa menit lgsg dikirim akun Netflix nya. Udah gitu murah banget cuma 15K. Recommended!"</p>
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-full bg-pinkish-300 flex items-center justify-center font-bold text-white">A</div>
+                        <div>
+                            <h4 class="font-semibold text-sm text-gray-800">Anastasya P.</h4>
+                            <span class="text-xs text-pinkish-500">Mahasiswa ✨</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-pinkish-50/60 p-6 rounded-3xl border border-pinkish-100 shadow-sm relative">
+                    <div class="text-pinkish-400 text-2xl mb-3"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="text-gray-600 text-sm italic mb-6">"Udah langganan Spotify sama Netflix di sini 3 bulan berturut-turut ga pernah ada kendala. Adminnya ramah pisan. Thank you Kak Silvia!"</p>
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-full bg-pinkish-400 flex items-center justify-center font-bold text-white">R</div>
+                        <div>
+                            <h4 class="font-semibold text-sm text-gray-800">Rizky Ramadhan</h4>
+                            <span class="text-xs text-pinkish-500">Karyawan Swasta 🌟</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-pinkish-50/60 p-6 rounded-3xl border border-pinkish-100 shadow-sm relative">
+                    <div class="text-pinkish-400 text-2xl mb-3"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="text-gray-600 text-sm italic mb-6">"Awalnya ragu takut kena tipu karena murah bgt, eh ternyata asli amanah. Sukses terus ya Kak Silvia tokonya!"</p>
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-full bg-pinkish-500 flex items-center justify-center font-bold text-white">D</div>
+                        <div>
+                            <h4 class="font-semibold text-sm text-gray-800">Dinda Kirana</h4>
+                            <span class="text-xs text-pinkish-500">Pelajar SMA 🌸</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16 bg-pinkish-50/50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center space-y-3 mb-12">
+                <span class="text-pinkish-500 font-semibold text-sm uppercase tracking-wider bg-pinkish-100 px-3 py-1 rounded-full">Bantuan 💡</span>
+                <h2 class="font-cute text-3xl sm:text-4xl font-bold text-gray-900">Pertanyaan Yang Sering Diajukan</h2>
+            </div>
+
+            <div class="space-y-4">
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-pinkish-100">
+                    <h3 class="font-cute font-bold text-lg text-gray-800 flex items-center space-x-3">
+                        <span class="text-pinkish-500">Q:</span>
+                        <span>Apakah akun Netflix-nya legal dan anti-onhold?</span>
+                    </h3>
+                    <p class="text-gray-600 text-sm mt-2 pl-6">Ya, dijamin aman, legal, dan bergaransi penuh selama masa aktif berlangganan Kak.</p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-pinkish-100">
+                    <h3 class="font-cute font-bold text-lg text-gray-800 flex items-center space-x-3">
+                        <span class="text-pinkish-500">Q:</span>
+                        <span>Bagaimana cara ordernya?</span>
+                    </h3>
+                    <p class="text-gray-600 text-sm mt-2 pl-6">Cukup klik tombol WhatsApp di website ini, nanti otomatis mengirim pesan ke Kak Silvia dan tinggal ikuti instruksi selanjutnya!</p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-pinkish-100">
+                    <h3 class="font-cute font-bold text-lg text-gray-800 flex items-center space-x-3">
+                        <span class="text-pinkish-500">Q:</span>
+                        <span>Metode pembayaran apa saja yang tersedia?</span>
+                    </h3>
+                    <p class="text-gray-600 text-sm mt-2 pl-6">Bisa via Transfer Bank, QRIS semua e-wallet (Dana, OVO, GoPay, ShopeePay).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-pinkish-200 py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0 text-center md:text-left">
+            <div>
+                <span class="font-cute text-2xl font-bold bg-gradient-to-r from-pinkish-600 to-pinkish-400 bg-clip-text text-transparent">Silvia Store ✨</span>
+                <p class="text-xs text-gray-500 mt-1">Penyedia layanan aplikasi premium termurah & terpercaya sejak 2024.</p>
+            </div>
+            <div class="flex space-x-6 text-gray-600">
+                <a href="https://wa.me/6285772252931?text=hallo%20kk%20silvia%20mau%20tanya%20dong" target="_blank" class="w-10 h-10 rounded-full bg-pinkish-100 text-pinkish-600 flex items-center justify-center hover:bg-pinkish-500 hover:text-white transition">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="w-10 h-10 rounded-full bg-pinkish-100 text-pinkish-600 flex items-center justify-center hover:bg-pinkish-500 hover:text-white transition">
+                    <i class="fa-brands fa-instagram text-lg"></i>
+                </a>
+                <a href="https://tiktok.com" target="_blank" class="w-10 h-10 rounded-full bg-pinkish-100 text-pinkish-600 flex items-center justify-center hover:bg-pinkish-500 hover:text-white transition">
+                    <i class="fa-brands fa-tiktok text-lg"></i>
+                </a>
+            </div>
+            <div class="text-xs text-gray-400">
+                &copy; 2026 Silvia Store. All rights reserved. 💖
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/6285772252931?text=hallo%20kk%20silvia%20mau%20tanya%20dong" target="_blank" class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full shadow-2xl flex items-center justify-center text-3xl hover:scale-110 transition duration-300 animate-bounce">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
